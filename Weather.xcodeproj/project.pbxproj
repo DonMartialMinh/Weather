@@ -13,6 +13,9 @@
 		83BF8E0726C61BE900DDCD8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BF8E0526C61BE900DDCD8B /* Main.storyboard */; };
 		83BF8E0926C61BEC00DDCD8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BF8E0826C61BEC00DDCD8B /* Assets.xcassets */; };
 		83BF8E0C26C61BEC00DDCD8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BF8E0A26C61BEC00DDCD8B /* LaunchScreen.storyboard */; };
+		83BF8E1726C665A100DDCD8B /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF8E1626C665A100DDCD8B /* WeatherData.swift */; };
+		83BF8E1926C665B900DDCD8B /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF8E1826C665B900DDCD8B /* WeatherManager.swift */; };
+		83BF8E1B26C665C600DDCD8B /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF8E1A26C665C600DDCD8B /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		83BF8E0826C61BEC00DDCD8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83BF8E0B26C61BEC00DDCD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83BF8E0D26C61BEC00DDCD8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83BF8E1626C665A100DDCD8B /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		83BF8E1826C665B900DDCD8B /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		83BF8E1A26C665C600DDCD8B /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +62,11 @@
 		83BF8DFE26C61BE900DDCD8B /* Weather */ = {
 			isa = PBXGroup;
 			children = (
-				83BF8E1526C6619900DDCD8B /* Controllers */,
-				83BF8E1426C6619200DDCD8B /* Views */,
-				83BF8E1326C6617800DDCD8B /* Models */,
 				83BF8DFF26C61BE900DDCD8B /* AppDelegate.swift */,
 				83BF8E0126C61BE900DDCD8B /* SceneDelegate.swift */,
-				83BF8E0326C61BE900DDCD8B /* ViewController.swift */,
-				83BF8E0526C61BE900DDCD8B /* Main.storyboard */,
+				83BF8E1326C6617800DDCD8B /* Models */,
+				83BF8E1426C6619200DDCD8B /* Views */,
+				83BF8E1526C6619900DDCD8B /* Controllers */,
 				83BF8E0826C61BEC00DDCD8B /* Assets.xcassets */,
 				83BF8E0A26C61BEC00DDCD8B /* LaunchScreen.storyboard */,
 				83BF8E0D26C61BEC00DDCD8B /* Info.plist */,
@@ -73,6 +77,9 @@
 		83BF8E1326C6617800DDCD8B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				83BF8E1626C665A100DDCD8B /* WeatherData.swift */,
+				83BF8E1826C665B900DDCD8B /* WeatherManager.swift */,
+				83BF8E1A26C665C600DDCD8B /* WeatherModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -80,6 +87,7 @@
 		83BF8E1426C6619200DDCD8B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				83BF8E0526C61BE900DDCD8B /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -87,6 +95,7 @@
 		83BF8E1526C6619900DDCD8B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				83BF8E0326C61BE900DDCD8B /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -163,6 +172,9 @@
 			files = (
 				83BF8E0426C61BE900DDCD8B /* ViewController.swift in Sources */,
 				83BF8E0026C61BE900DDCD8B /* AppDelegate.swift in Sources */,
+				83BF8E1926C665B900DDCD8B /* WeatherManager.swift in Sources */,
+				83BF8E1726C665A100DDCD8B /* WeatherData.swift in Sources */,
+				83BF8E1B26C665C600DDCD8B /* WeatherModel.swift in Sources */,
 				83BF8E0226C61BE900DDCD8B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
